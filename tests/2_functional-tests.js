@@ -67,7 +67,7 @@ suite("Functional Tests", function () {
 });
 
 const Browser = require("zombie");
-Browser.site = "http://0.0.0.0:3000";
+Browser.site = "https://boilerplate-mochachai-n0iw.onrender.com";
 const browser = new Browser();
 
 suiteSetup(function (done) {
